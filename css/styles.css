@@ -1,0 +1,23 @@
+.jumbotron{
+    background-size: cover;
+    background-position: center;
+}
+.logo-img{
+    margin-top: 10%;
+
+}
+.card-title{
+  line-height: 70px;
+  font-size: 40px;
+
+}
+
+.mx-5{
+   line-height:0;
+   margin: auto;
+   font-size: 12px;
+   padding-top: 2px;
+}
+.mouse-click{
+    padding-top: 150px;
+}
