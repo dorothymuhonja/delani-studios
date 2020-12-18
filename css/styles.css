@@ -30,6 +30,9 @@ body{
     line-height: 3rem;
 }
 
+.about-text{
+    font-weight: 400;
+}
 .jumbotron-fluid{
     color: white;
     text-align: center;
@@ -40,4 +43,18 @@ body{
 .services{
     font-weight: 400;
     line-height: 40px;
+}
+#what-we-do{
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+#our-work{
+    padding-bottom: 2%;
+    
 }
