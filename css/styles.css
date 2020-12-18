@@ -1,6 +1,4 @@
-body{
-    margin: 0;
-}
+
 .jumbotron{
     background-size: cover;
     background-position: center;
@@ -67,3 +65,55 @@ body{
     width: 21%;
     padding: 1%;
 }
+#contact{
+    font-size: 2vw;
+    padding-bottom: 5%;
+    
+}
+#name{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    margin-right: 10px;
+    border-radius: 0%;
+     
+}
+#email{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 0%;
+    
+}
+
+.column4{
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+textarea{
+    font-size: 15px;
+    width: 76%;
+    height: 17vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 1%;
+    border: 1px solid white; 
+    margin-bottom: 10px;
+}
+::placeholder{
+    color: white;
+}
+
+#submit-btn{
+  width: 20%;
+  text-align: center;
+  margin-left: 40%;
+  
+
+  
+}
+.footer{
+    text-align: center;
+    
+}
+
