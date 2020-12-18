@@ -1,6 +1,10 @@
+body{
+    margin: 0;
+}
 .jumbotron{
     background-size: cover;
     background-position: center;
+    box-shadow: none;
 }
 .logo-img{
     margin-top: 10%;
@@ -20,4 +24,20 @@
 }
 .mouse-click{
     padding-top: 150px;
+}
+.about{
+    text-align: center;
+    line-height: 3rem;
+}
+
+.jumbotron-fluid{
+    color: white;
+    text-align: center;
+}
+.display-4{
+    font-size: 30px;
+}
+.services{
+    font-weight: 400;
+    line-height: 40px;
 }
