@@ -58,3 +58,12 @@ body{
     padding-bottom: 2%;
     
 }
+.column1, .column2{
+    display: flex;
+    justify-content: center;
+
+}
+.column1 img, .column2 img{
+    width: 21%;
+    padding: 1%;
+}
