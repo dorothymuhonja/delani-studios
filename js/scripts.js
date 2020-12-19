@@ -21,6 +21,24 @@ $(document).ready(function () {
   });
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(document).ready(function () {
   $('.change-3').click(function () {
     $('.change-3').slideDown('1500').hide('1000');
@@ -31,3 +49,19 @@ $(document).ready(function () {
     $('.change-3').slideDown('1500');
   });
 });
+
+
+ $(document).ready(function () {
+   $('form.formValidation').submit(function () {
+      event.preventDefault();
+     var name = $('input#name').val();
+     var email = $('input#email').val();
+     var message = $('textarea#message').val();
+    
+     if (name && email) {
+       alert(name +` your message has been received. We'll get back to you soon.`);
+     } else {
+       alert('Please enter your details!');
+     }
+   });
+ });
