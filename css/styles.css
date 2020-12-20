@@ -9,27 +9,50 @@ body{
     box-shadow: none;
 }
 .logo-img{
-    margin-top: 10%;
+    margin-top: 15%;
    
 
 }
 .card-title{
-  line-height: 70px;
+  line-height: 90px;
   font-size: 50px;
-  margin-bottom: -5px;
+  margin-bottom: 1px;
+  font-weight: 400;
+
 
 }
 
 .mx-5 {
-   line-height:0px;
-   margin-top: 0;
-   font-size: 12px;
+   line-height: -1%;
+   font-size: 13px;
    padding-top: 2px;
 }
+
 .mouse-click{
-    padding-top: 10%;
+    padding-top: 20%;
+    animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+
     
 }
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+
 .about{
     text-align: center;
     line-height: 3rem;
@@ -81,8 +104,12 @@ body{
   padding: 5px;
   align-items: center;
   margin-left:18%;
-  margin-right: 16%; ;
+  margin-right: 16%; 
 }
+@media (max-width: 800px) {
+  
+}
+
 .col-md-3 img{
   max-width: 100%;
   max-height: 100%;
@@ -155,4 +182,10 @@ textarea{
     text-align: center;
     
 }
-
+a{
+    padding-right: 10px;
+}
+ footer{
+     margin-top: 20px;
+     font-weight: 400;
+ }
