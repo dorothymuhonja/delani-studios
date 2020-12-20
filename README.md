@@ -24,6 +24,7 @@
 * html
 * css
 * Javascript
+* JQuery
 * Bootstrap
  
  ## Page Screenshot
