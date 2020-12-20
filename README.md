@@ -28,8 +28,10 @@
 * Bootstrap
  
  ## Page Screenshot
- ![]()
-![]()
+ ![Home page](images/home-page.png)
+ ![About us](images/about-us.png)
+ ![Portfolio](images/what-we-do.png)
+ ![Contact us](images/contact-us.png)
 
 ## Contact information
 * Email: dorothymuhonja7@gmail.com
