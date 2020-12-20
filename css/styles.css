@@ -113,14 +113,15 @@ body{
 
 #grey, #ontario, #yellow, #movies, #good, #button, #burned, #restaurant{
     display: none;
-    display: none;
-    color: rgb(82, 71, 71);
+    color: white;
     width: 90%;
-    height: 100%;
-    background-color:rgba(255, 255, 255, 0.456);
+    height: 90%;
+    background-color:rgba(63, 55, 55, 0.456);
     position:absolute;
-    top: 20px;
-    left: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
     font-weight: bold;
     text-align: center;
     font-size: 30px;
