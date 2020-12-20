@@ -11,7 +11,7 @@
 ### How To Run
 * Click on this [Link](https://github.com/dorothymuhonja/delani-studios.git) to access my git hub Delani-studio repositpory.
 * Fork or Clone the repository
-* You can also access the web application directly using this [live link]().
+* You can also access the web application directly using this [live link](https://dorothymuhonja.github.io/delani-studios/)
 
 ## BDD(Behavior Driven Development)
 * User can toggle between the icons on 'What-we-do' section to see a description of our services.
