@@ -115,11 +115,11 @@ $(document).ready(function () {
 
 
  $(document).ready(function () {
-   $('form.formValidation').submit(function () {
+   $('form.validate').submit(function () {
       event.preventDefault();
-     var name = $('input#name').val();
-     var email = $('input#email').val();
-     var message = $('textarea#message').val();
+     var name = $('input#mce-FNAME').val();
+     var email = $('input#mce-EMAIL').val();
+     var message = $('textarea#mce-MMERGE6').val();
 
      if (name && email) {
        alert(name +` your message has been received. We'll get back to you soon.`);
