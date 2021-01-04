@@ -134,7 +134,9 @@ body{
     padding-bottom: 5%;
     
 }
-#name{
+
+
+   #mce-FNAME{
     background-color: rgba(255, 255, 255, 0);
     color: white;
     border: 1px solid white;
@@ -142,37 +144,37 @@ body{
     border-radius: 0%;
      
 }
-#email{
+
+   #mce-EMAIL{
     background-color: rgba(255, 255, 255, 0);
     color: white;
     border: 1px solid white;
     border-radius: 0%;
     
+   
 }
 
-.column4{
-  display: inline-flex;
-  justify-content: space-evenly;
-}
-textarea{
+
+#mce-MMERGE6{
     font-size: 15px;
     width: 76%;
     height: 17vw;
     background-color: rgba(255, 255, 255, 0);
     color: white;
-    padding: 1%;
     border: 1px solid white; 
-    margin-bottom: 10px;
-}
-::placeholder{
-    color: white;
+    
 }
 
-#submit-btn{
+
+#mc-embedded-subscribe{
   width: 20%;
   text-align: center;
   margin-left: 40%;
     
+}
+
+::placeholder{
+    color: white;
 }
 
 .footer{
